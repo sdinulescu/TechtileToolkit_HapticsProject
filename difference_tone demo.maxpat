@@ -38,6 +38,21 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 15.0,
+					"id" : "obj-150",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 899.0, 8.0, 106.0, 23.0 ],
+					"presentation_rect" : [ 900.0, 6.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "piezo input"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-149",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -191,7 +206,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1046.0, 122.0, 89.0, 22.0 ],
+					"patching_rect" : [ 899.0, 150.0, 89.0, 22.0 ],
 					"style" : "",
 					"text" : "lores~ 1100. 0."
 				}
@@ -275,7 +290,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 932.0, 342.0, 50.0, 22.0 ],
+					"patching_rect" : [ 916.0, 304.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -311,7 +326,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 915.0, 307.0, 122.0, 22.0 ],
+					"patching_rect" : [ 899.0, 269.0, 122.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "find_closes_freq.js",
 						"parameter_enable" : 0
@@ -328,7 +343,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 915.0, 374.0, 116.0, 22.0 ],
+					"patching_rect" : [ 899.0, 336.0, 116.0, 22.0 ],
 					"style" : "",
 					"text" : "send expected_freq"
 				}
@@ -340,7 +355,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1046.0, 307.0, 99.0, 22.0 ],
+					"patching_rect" : [ 1030.0, 269.0, 99.0, 22.0 ],
 					"style" : "",
 					"text" : "send actual_freq"
 				}
@@ -379,7 +394,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1121.0, 271.0, 24.0, 24.0 ],
+					"patching_rect" : [ 1105.0, 233.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -400,7 +415,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1046.0, 8.0, 225.0, 95.0 ],
+					"patching_rect" : [ 899.0, 36.0, 225.0, 95.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -414,7 +429,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1065.0, 272.0, 50.0, 22.0 ],
+					"patching_rect" : [ 1049.0, 234.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -440,7 +455,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "float", "bang" ],
-					"patching_rect" : [ 1046.0, 234.0, 57.0, 22.0 ],
+					"patching_rect" : [ 1030.0, 196.0, 57.0, 22.0 ],
 					"style" : "",
 					"text" : "fzero~"
 				}
